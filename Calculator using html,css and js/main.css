@@ -1,0 +1,119 @@
+ body
+ {
+   background-color: rgb(252, 224, 253);
+ }
+ .box
+ {
+    
+    width: 360px;
+    height: 500px;
+    background-image: linear-gradient(rgb(3, 3, 3),rgb(100, 101, 101),black);
+    margin-left: 550px;
+    margin-top:130px;
+    border-radius: 5px;
+    box-shadow: 10px 15px 15px  #ff6600;
+ }
+ #name1
+ {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px 5px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+ }
+ /* #name2
+ {
+  
+    margin-left: 5px;
+    font-size: 30px;
+    padding: 5px 20px 18px 20px;
+ } */
+ .demo1 
+ {
+    margin-left: 20px;
+   
+ }
+ .demo1 input
+ {
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: yellow;
+   border-radius: 5px;
+    padding: 17px 27px 15px 31px;
+    border: 2px solid black;
+    font-weight: bold;
+ }
+ 
+ .demo2 
+ {
+    margin-left: 20px;
+ }
+ .demo2 input
+ {
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 17px 27px 15px 29px;
+    border: 2px solid black;
+    font-weight: bold;
+ }
+  
+ .demo3 input
+ {
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 17px 27px 17px 29px;
+    border: 2px solid black;
+    font-weight: bold;
+ }
+ 
+ #temp1
+ {
+    padding: 15px 20px 15px 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+ }
+ .demo4
+ {
+    display: flex;
+ }
+ #temp2
+ {
+    margin-right: 10px;
+ }
+ #btn
+ {
+   transform: translate(60%,50%);
+ }
+ @media screen and (max-width:480px) {
+   *
+   {
+      margin: 0px;
+   }
+   .box
+   {
+
+      width: 375px;
+      height: 667px;
+      margin: 0px;
+   }
+   #name1
+   {
+      padding: 30px 5px;
+   }
+   .demo1 input
+   {
+      padding: 17px 27px 23px 29px;
+   }
+   .demo2 input
+   {
+      padding: 17px 27px 23px 29px;
+   }
+   .demo3 input
+   {
+      padding: 17px 27px 23px 29px;
+   }
+ }

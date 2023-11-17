@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="clc.png">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="box">
+        <input  style="font-size:25px; " type=""  id="name1" >
+         
+         <br><br>
+        <div class="demo1">
+    
+          <input type="button"   value="/" onclick="name1.value +='/'">
+          <input type="button"   value="*"  onclick="name1.value +='*'">
+          <input type="button"  value="+" onclick="name1.value +='+'">
+          <input type="button"  value="-" onclick="name1.value +='-'"><br><br>
+       </div>
+       <div class="demo2">
+        <input type="button"  value="1" onclick="name1.value +='1'">
+        <input type="button"  value="2" onclick="name1.value +='2'">
+        <input type="button"  value="3" onclick="name1.value +='3'">
+        <input type="button" id="temp1" value="AC" onclick="name1.value = name1.value.slice(0,-1) "><br><br>
+
+        <div class="demo4">
+        <div class="demo3">
+          <input type="button"  value="4" onclick="name1.value +='4'">
+          <input type="button"  value="5" onclick="name1.value +='5'">
+          <input type="button"  value="6" onclick="name1.value +='6'"><br><br>
+ 
+          <input type="button"  value="7" onclick="name1.value +='7'">
+          <input type="button"  value="8" onclick="name1.value +='8'">
+          <input type="button"  value="9" onclick="name1.value +='9'"><br><br>
+       
+          <input type="button"  value="." onclick="name1.value +='.'">
+          <input type="button"  value="0" onclick="name1.value +='0'">
+          <input type="button" style="background-color: rgb(255, 68, 68);" value="C" onclick="name1.value =''">
+        </div>
+        <input type="button" style="background-color: rgb(50, 255, 9);" id="temp2"  value="=" onclick="name1.value = '   ' +eval(name1.value)"><br><br>
+    </div>
+        </div>
+      
+    </div>
+    <script>
+        const temp = document.getElementById("btn");
+        const b = document.querySelector("body");
+        function myfunction()
+        {
+            b.style.backgroundColor = temp.value;
+        }
+    </script>
+</body>
+</html>
