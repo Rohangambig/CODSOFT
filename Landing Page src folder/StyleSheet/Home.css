@@ -1,0 +1,36 @@
+.HOME
+{
+    padding: 20px;
+}
+.HOME h1{
+    text-align: center;
+}
+.Container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Container img{
+    width: 150%;
+    height: 100%;
+}
+.paragraph1:nth-child(odd)
+{
+    text-align: center;
+    text-indent: 40px;
+    padding: 10px;
+    transform: translateX(-100%);
+    animation: animate 2s ease-in-out forwards;
+    transition: animation 5s ease;
+}
+.paragraph1:nth-child(even)
+{
+    transform: translateX(100%);
+    animation: animate 3s ease-in-out forwards;
+}
+@keyframes animate {
+    100%{
+        transform: translateX(0%);
+    }
+}
