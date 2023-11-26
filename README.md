@@ -7,8 +7,8 @@ Portfolio : https://rohanambigportfolio.netlify.app/
 
 
 
-Task 2 : 
-https://6562ce1c25d30a2cac2960b3--frabjous-bubblegum-bd3f45.netlify.app/
+Task 2 : - 
+Landing page : https://6562ce1c25d30a2cac2960b3--frabjous-bubblegum-bd3f45.netlify.app/
 
 
 Task 3 - 
